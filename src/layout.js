@@ -5,18 +5,36 @@ import Top from "./top";
 import Foot from "./foot";
 import About from "./about";
 import Profile from "./profile";
+import Home from "./home";
+import Contact from "./contact";
+import Timer from "./Timer/Timer";
 
 class Layout extends Component {
   render() {
     return (
       <Router>
         <Top />
+        <br></br>
+        <br></br>
         <Switch>
           <Route exact path="/">
             <App />
           </Route>
-          <Route path="/about" Component={About} />
-          <Route path="/profile" Component={Profile} />
+          <Route path="/timer">
+            <Timer />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/profile">
+            <Profile />
+          </Route>
         </Switch>
         <Foot />
       </Router>

@@ -98,6 +98,16 @@ class foot extends Component {
                     <i className="fa fa-linkedin"></i>
                   </a>
                 </li>
+                <li>
+                  <a href="#" className="icotwitter" title="Linkedin">
+                    <i className="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="icoWhatsapp" title="Linkedin">
+                    <i className="fa fa-whatsapp"></i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
