@@ -9,39 +9,45 @@ import Home from "./home";
 import Contact from "./contact";
 import Timer from "./Timer/Timer";
 import SignUp from "./signup";
+import { Redirect } from "react-router-dom";
 
 class Layout extends Component {
   render() {
     return (
-      <Router>
-        <Top />
-        <br></br>
-        <br></br>
-        <Switch>
-          <Route exact path="/">
-            <App />
-          </Route>
-          <Route path="/timer">
-            <Timer />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/profile">
-            <Profile />
-          </Route>
-          <Route path="/signup">
-            <SignUp />
-          </Route>
-        </Switch>
-        <Foot />
-      </Router>
+      <div>
+        <Router>
+          <Top />
+          <br></br>
+          <br></br>
+          <Switch>
+            <Route path="/recipe">
+              <App />
+            </Route>
+            <Route path="/timer">
+              <Timer />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path="/profile">
+              <Profile />
+            </Route>
+            <Route path="/signup">
+              <SignUp />
+            </Route>
+            <Route>
+              <Redirect to="/home" />
+            </Route>
+          </Switch>
+          <Foot />
+        </Router>
+      </div>
     );
   }
 }
