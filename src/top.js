@@ -15,7 +15,9 @@ class Top extends Component {
               <Nav.Link href="/contact">Contact Us</Nav.Link>
               <Nav.Link href="/about">About Us</Nav.Link>
 
-              <Button style={{ backgroundColor: "lightcoral" }}>SIGN IN</Button>
+              <Button href="/signup" style={{ backgroundColor: "lightcoral" }}>
+                SIGN IN
+              </Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>

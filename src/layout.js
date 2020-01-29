@@ -8,6 +8,7 @@ import Profile from "./profile";
 import Home from "./home";
 import Contact from "./contact";
 import Timer from "./Timer/Timer";
+import SignUp from "./signup";
 
 class Layout extends Component {
   render() {
@@ -34,6 +35,9 @@ class Layout extends Component {
           </Route>
           <Route path="/profile">
             <Profile />
+          </Route>
+          <Route path="/signup">
+            <SignUp />
           </Route>
         </Switch>
         <Foot />
