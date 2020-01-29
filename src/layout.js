@@ -8,16 +8,20 @@ import Profile from "./profile";
 import Home from "./home";
 import Contact from "./contact";
 import Timer from "./Timer/Timer";
+import  { Redirect } from 'react-router-dom';
+
 
 class Layout extends Component {
   render() {
     return (
+      <div>
       <Router>
         <Top />
         <br></br>
         <br></br>
         <Switch>
-          <Route exact path="/">
+        
+          <Route path="/recipe">
             <App />
           </Route>
           <Route path="/timer">
@@ -35,9 +39,13 @@ class Layout extends Component {
           <Route path="/profile">
             <Profile />
           </Route>
+          <Route>
+         <Redirect to='/home'  />
+         </Route>
         </Switch>
-        <Foot />
+         <Foot />
       </Router>
+     </div>
     );
   }
 }

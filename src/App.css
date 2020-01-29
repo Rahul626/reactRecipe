@@ -2,13 +2,17 @@
 min-height: 100vh;
 /* background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%); */
 background-color: #f6e7e6;
+margin-top: 3rem;
 }
 .serach-form{
   min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
+
+  
 
 .search-bar{
   width: 50%;

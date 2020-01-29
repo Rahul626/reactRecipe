@@ -1,7 +1,12 @@
 
+* {
+	box-sizing: border-box;
+}
+
   .app-input input {
     border: none;
     padding: 10px;
-    background-color: #ebd634;
+  
+    background-color: #FFB6B9;
   }
   

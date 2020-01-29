@@ -5,7 +5,9 @@ class InputTime extends React.Component {
   render() {
     return (
       <div className="app-input">
-        <h3>Give a time</h3>
+        <br></br>
+        <h3 className="text-center">Give a time to your Timer</h3>
+        <br></br>
         <input
           type="number"
           value={this.props.value}
@@ -32,9 +34,9 @@ class Timer extends React.Component {
 class StartButton extends React.Component {
   render() {
     return (
-      <div style={{ marginLeft: 130 }}>
+      <div >
         <button
-          className="btn btn-lg btn-danger"
+          className="btn btn-lg btn-danger btn-lg btn-block"
           disabled={!this.props.value}
           onClick={this.props.startCountDown}
         >
@@ -122,7 +124,7 @@ class TimerApp extends React.Component {
         <div>
           <div className="row App">
             <div className="col-md-4" />
-            <div className="col-md-4">
+            <div className="col-md-6">
               <InputTime
                 value={this.state.value}
                 handleChange={this.handleChange}
