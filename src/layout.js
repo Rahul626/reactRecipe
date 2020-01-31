@@ -4,7 +4,8 @@ import App from "./App";
 import Top from "./top";
 import Foot from "./foot";
 import About from "./about";
-import Profile from "./profile";
+import Logn from './login';
+import Signup  from './signup';
 import Home from "./home";
 import Contact from "./contact";
 import Timer from "./Timer/Timer";
@@ -36,14 +37,17 @@ class Layout extends Component {
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/profile">
-            <Profile />
+          <Route path="/login">
+            <Logn />
+          </Route>
+          <Route path="/signup">
+            <Signup />
           </Route>
           <Route>
          <Redirect to='/home'  />
          </Route>
         </Switch>
-         <Foot />
+         <Foot  />
       </Router>
      </div>
     );

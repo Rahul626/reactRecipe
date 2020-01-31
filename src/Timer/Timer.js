@@ -6,7 +6,7 @@ class InputTime extends React.Component {
     return (
       <div className="app-input">
         <br></br>
-        <h3 className="text-center">Give a time to your Timer</h3>
+        <h3 className="text-center">Timer App</h3>
         <br></br>
         <input
           type="number"

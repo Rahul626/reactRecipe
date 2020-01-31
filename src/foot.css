@@ -2,7 +2,7 @@
 /*FOOTER*/
 
 footer {
-    background: #16222A;
+ 
     background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
     background: linear-gradient(59deg, #3A6073, #16222A);
     color: white;
@@ -15,8 +15,8 @@ footer {
     transition-duration: 0.2s;
   }
   
-  footer a:hover {
-    color: #FA944B;
+  .footer-pad a:hover {
+    color: white;
     text-decoration: none;
   }
   
@@ -26,10 +26,7 @@ footer {
     border-top: 1px solid #FFFFFF;
   }
   
-  .footer-middle {
-    padding-top: 2em;
-    color: white;
-  }
+
   
   
   /*SOCİAL İCONS*/
@@ -58,7 +55,14 @@ footer {
   .social-network a.icoLinkedin:hover {
     background-color: #007bb7;
   }
+  .social-network a.icotwitter:hover {
+    background-color: #007bb7;
+  }
+  .social-network a.icoWhatsapp:hover {
+    background-color: #4BEC68;
+  }
   
+
   .social-network a.icoFacebook:hover i,
   .social-network a.icoLinkedin:hover i {
     color: #fff;

@@ -15,11 +15,11 @@ class Top extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto"></Nav>
             <Form inline>
-              <Nav.Link href="/timer"><IoIosTimer size={30}/>TimerApp</Nav.Link>
-              <Nav.Link href="/contact">Contact Me</Nav.Link>
-              <Nav.Link href="/about">About Me</Nav.Link>
+              <Nav.Link href="/timer"><IoIosTimer size={30}/>TIMER APP</Nav.Link>
+              <Nav.Link href="/contact">CONTACT ME</Nav.Link>
+              <Nav.Link href="/about">ABOUT ME</Nav.Link>
 
-              <Button style={{ backgroundColor: "lightcoral" }}><FiUserPlus size={30}/>Sign In</Button>
+              <Button  href="/login" style={{ backgroundColor: "lightcoral" }}><FiUserPlus size={30}/>Sign In</Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>

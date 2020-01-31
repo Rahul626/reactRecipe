@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import Recipe from "./recipe";
 import {FaSearch} from 'react-icons/fa';
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {

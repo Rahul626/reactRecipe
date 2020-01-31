@@ -7,7 +7,7 @@
 
  h1 {
     line-height: .95;
-    color: #66fcf1;
+    color: #4B8CFB;
 
     text-transform: uppercase;
     -webkit-user-select: none;
@@ -16,7 +16,13 @@
     user-select: none;
     pointer-events: none;
   }
+#welcome{
+    font-family: 'Great Vibes', cursive;
   
+    font-size: 30px;
+
+    color: #D33A2C;
+  }
   .center {
 
     margin: auto;
@@ -29,12 +35,12 @@
   }
   
   .btnhome {
-display: inline;
-      margin:10 auto;
+    display: inline;
+    margin:10 auto;
    justify-content: center;
     padding: 6px 0 0 3px;
     padding: 10px;
-    border: 2px solid #66fcf1;
+    border: 2px solid #4B8CFB;
     border-radius: 2px;
     background: none;
     font-size: 16px;
@@ -55,7 +61,7 @@ display: inline;
   }
   
   .btnhome:hover {
-    background: #66fcf1;
+    background: #4B8CFB;
     color: #10151B;
     
   }

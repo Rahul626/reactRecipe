@@ -1,7 +1,7 @@
 h1{
     line-height: 3;
     color: #4b8cfb;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
@@ -45,12 +45,13 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 input,
 textarea {
+  
     padding: 30px;
     border: 0;
     width: 100%;
-    font-size: 1rem;
-    background-color: #FFB6B9;
-    color: white;
+    font-size: 2rem;
+    background-color: rgb(99, 99, 99);
+    color: rgb(28, 31, 30);
     border-radius: 4px;
 }
 
@@ -66,13 +67,13 @@ textarea:focus ~ span {
 
 textarea {
     width: 100%;
-    min-height: 15em;
+    min-height: 1em;
 }
 
 .input-container {
     width: 650px;
     max-width: 100%;
-    margin: 20px auto 25px auto;
+    margin: 10px auto 15px auto;
 }
 
 .submit-btn {

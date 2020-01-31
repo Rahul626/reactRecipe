@@ -7,86 +7,73 @@ class foot extends Component {
   }
   render() {
     return (
-      <div class="footer-middle">
+      <div class="footer-middle" style={{backgroundColor : '#FFB6B9'}} >
         <div class="container">
           <div class="row">
             <div class="col-md-3 col-sm-6">
               <div class="footer-pad">
-                <h4>Heading 1</h4>
+                <h4> Worked</h4>
                 <ul class="list-unstyled">
                   <li>
                     <a href="#"></a>
                   </li>
                   <li>
-                    <a href="#">Payment Center</a>
+                    <a href="#">Template</a>
+                  </li>
+              
+                  <li>
+                    <a href="#">Fixing web issue  </a>
                   </li>
                   <li>
-                    <a href="#">Contact Directory</a>
+                    <a href="#">Blog</a>
                   </li>
                   <li>
-                    <a href="#">Forms</a>
+                    <a href="#">SEO</a>
                   </li>
-                  <li>
-                    <a href="#">News and Updates</a>
-                  </li>
-                  <li>
-                    <a href="#">FAQs</a>
-                  </li>
+
                 </ul>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
               <div class="footer-pad">
-                <h4>Heading 2</h4>
+                <h4>I love</h4>
                 <ul class="list-unstyled">
                   <li>
-                    <a href="#">Website Tutorial</a>
+                    <a href="#">UI Design</a>
                   </li>
                   <li>
-                    <a href="#">Accessibility</a>
+                    <a href="#">Web Development</a>
                   </li>
                   <li>
-                    <a href="#">Disclaimer</a>
+                    <a href="#">Admin Panel Design</a>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <a href="#">Portfolio</a>
                   </li>
-                  <li>
-                    <a href="#">FAQs</a>
-                  </li>
-                  <li>
-                    <a href="#">Webmaster</a>
-                  </li>
+                
                 </ul>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
               <div class="footer-pad">
-                <h4>Heading 3</h4>
+                <h4>I WORK </h4>
                 <ul class="list-unstyled">
                   <li>
-                    <a href="#">Parks and Recreation</a>
+                    <a href="#">Web (ANGULAR & REACT ) </a>
                   </li>
                   <li>
-                    <a href="#">Public Works</a>
+                    <a href="#">App (React Native )</a>
                   </li>
                   <li>
-                    <a href="#">Police Department</a>
+                    <a href="#">Front end DESIGN </a>
                   </li>
-                  <li>
-                    <a href="#">Fire</a>
-                  </li>
-                  <li>
-                    <a href="#">Mayor and City Council</a>
-                  </li>
-                  <li>
-                    <a href="#"></a>
-                  </li>
+                  
+                 
                 </ul>
               </div>
             </div>
             <div class="col-md-3">
-              <h4>Follow Us</h4>
+              <h4>Find Me</h4>
               <ul class="social-network social-circle">
                 <li>
                   <a href="#" className="icoFacebook" title="Facebook">
@@ -111,10 +98,11 @@ class foot extends Component {
               </ul>
             </div>
           </div>
+          <br></br>
           <div className="row">
             <div className="col-md-12 copy">
               <p className="text-center">
-                &copy; Copyright 2018 - Company Name. All rights reserved.
+                &copy; Copyright 2020 Rahul RJ
               </p>
             </div>
           </div>
