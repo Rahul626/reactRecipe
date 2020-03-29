@@ -13,16 +13,22 @@ class About extends Component {
 
 		<section class="about">
 			<h2>Introduction</h2>
-			<p>Hi, I'm a freelance Designer who's currently learning to code on <a href="http://www.thinkful.com/" target="_blank">Thinkful</a>. I really want to learn how to implement my own designs in the browser and offer a better service to my clients by telling them that I can code too!</p>
-			
-			<p>I spend far too much time on the web, keeping one eye on Twitter and the other on <a href="http://www.allblacks.com/">Product Hunt</a> to ensure I dont miss out on any new products! As well as web design, I have a real desire to learn iOS development as well, but all in good time.</p>
+				<p>An Indian by birth, Going to be Engineer by career choice, and a technology enthusiast by nature. I write Code and love it. Music is something which keep me awake & fresh. Being an undergrad in computer science and engineering never hurt my aspirations. My hobbies also include writing, painting, reading, travelling, adventure sports and interacting with new folks.</p>
+		
 		</section>
 
 		<section class="questions">
 			<h2>More about me</h2>
-			<h3>Where am I from?</h3>
-			<p>I'm originally from a small country called New Zealand where we all have pet sheep and watch <a href="http://www.allblacks.com/" target="_blank">Rugby</a> every day of the week. I grew up in a small town but moved over to the UK a few years ago and I'm now living in the countryside in Ireland.</p>
-
+		
+			<p>
+                    I want to be a full-stack Web Application Developer and
+                    Software Developer,my primary focus and inspiration for now
+                    is Web Development.I am both driven and self-motivated,<br />
+                    and development I am learning and experimenting with new
+                    technologies and languages. I am very passionate about
+                     Web Development & App development, and strive to better myself as a
+                    developer, and the community as a whole.
+                  </p>
 			<h3>What is my Dream Job?</h3>
 			<p>Part of the reason I'm learning to code is because I want to be able to put my own ideas into practice. My dream 'job' would be to build my own product and be responsbible for the entire experience from design through to implementation. </p>
 

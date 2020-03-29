@@ -10,7 +10,7 @@ class foot extends Component {
       <div class="footer-middle" style={{backgroundColor : '#FFB6B9'}} >
         <div class="container">
           <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-12">
               <div class="footer-pad">
                 <h4> Worked</h4>
                 <ul class="list-unstyled">
@@ -34,7 +34,7 @@ class foot extends Component {
                 </ul>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-12">
               <div class="footer-pad">
                 <h4>I love</h4>
                 <ul class="list-unstyled">
@@ -76,22 +76,22 @@ class foot extends Component {
               <h4>Find Me</h4>
               <ul class="social-network social-circle">
                 <li>
-                  <a href="#" className="icoFacebook" title="Facebook">
-                    <i className="fa fa-facebook"></i>
+                  <a href="https://www.instagram.com/i_am_rahul_rj/" className="icoFacebook" title="Facebook">
+                    <i className="fa fa-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="icoLinkedin" title="Linkedin">
+                  <a href="https://www.linkedin.com/in/jamaluddin-mondal-00630310b/" className="icoLinkedin" title="Linkedin">
                     <i className="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="icotwitter" title="Linkedin">
+                  <a href="https://twitter.com/iam_rahul_rj/" className="icotwitter" title="Linkedin">
                     <i className="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="icoWhatsapp" title="Linkedin">
+                  <a href="https://wa.me/917602571325" target="_blank" className="icoWhatsapp" title="Linkedin">
                     <i className="fa fa-whatsapp"></i>
                   </a>
                 </li>

@@ -46,12 +46,12 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 input,
 textarea {
   
-    padding: 30px;
+    padding: 20px;
     border: 0;
     width: 100%;
     font-size: 2rem;
-    background-color: rgb(99, 99, 99);
-    color: rgb(28, 31, 30);
+    background-color: rgb(230, 144, 144);
+    color: #f6e7e6;
     border-radius: 4px;
 }
 

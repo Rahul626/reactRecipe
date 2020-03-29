@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <form onSubmit={getSearch} className="serach-form">
+      <form onSubmit={getSearch} className ="serach-form">
         <input
           className="search-bar"
           type="text"

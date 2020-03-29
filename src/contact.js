@@ -14,6 +14,7 @@ class Contact extends Component {
 				<div className="styled-input wide">
 					<input type="text" required />
 					<label>Name</label> 
+					
 				</div>
 			</div>
 			<div className="col-md-6 col-sm-12">

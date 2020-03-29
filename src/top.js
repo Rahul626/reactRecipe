@@ -18,13 +18,8 @@ class Top extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto"></Nav>
             <Form inline>
-<<<<<<< HEAD
-              <Nav.Link href="/timer"><IoIosTimer size={30}/>TIMER APP</Nav.Link>
-              <Nav.Link href="/contact">CONTACT ME</Nav.Link>
-              <Nav.Link href="/about">ABOUT ME</Nav.Link>
-
               <Button  href="/login" style={{ backgroundColor: "lightcoral" }}><FiUserPlus size={30}/>Sign In</Button>
-=======
+
               <Nav.Link href="/timer">
                 <IoIosTimer size={30} />
                 TimerApp
@@ -36,7 +31,6 @@ class Top extends Component {
                 <FiUserPlus size={30} />
                 Sign In
               </Button>
->>>>>>> dee43b1be97114139e508ce7d7ec1eb9f721de5f
             </Form>
           </Navbar.Collapse>
         </Navbar>
